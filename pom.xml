@@ -12,6 +12,8 @@
         <module>strategy-design</module>
         <module>observe</module>
         <module>decorator</module>
+        <module>simple-factory</module>
+        <module>simple-factory</module>
     </modules>
     <dependencies>
         <dependency>
