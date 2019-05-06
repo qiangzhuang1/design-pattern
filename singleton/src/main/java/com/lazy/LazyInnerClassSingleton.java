@@ -1,7 +1,7 @@
 package com.lazy;
 
 /**
- * 懒汉式单例 安全
+ * 懒汉式单例(静态内部类) 安全
  */
 public class LazyInnerClassSingleton {
     private LazyInnerClassSingleton(){
