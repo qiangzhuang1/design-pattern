@@ -13,7 +13,6 @@
         <module>observe</module>
         <module>decorator</module>
         <module>simple-factory</module>
-        <module>simple-factory</module>
         <module>singleton</module>
     </modules>
     <dependencies>
