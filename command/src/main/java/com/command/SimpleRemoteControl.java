@@ -1,4 +1,4 @@
-package com.design.pattern;
+package com.command;
 
 /**
  * 传递命令对象Invoker：持有命令对象，要求命令对象执行请求。

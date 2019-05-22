@@ -1,4 +1,4 @@
-package com.design.pattern;
+package com.command;
 
 /**
  * 接受者对象Receiver：接受者对象，真正执行命令的对象。

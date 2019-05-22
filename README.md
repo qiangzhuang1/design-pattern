@@ -7,3 +7,4 @@
 7. adapter 适配器模式
 8. facade 外观模式
 9. template 模板方法模式
+10. iterator 迭代器模式

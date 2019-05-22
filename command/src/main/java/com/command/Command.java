@@ -1,4 +1,4 @@
-package com.design.pattern;
+package com.command;
 
 /**
  * 定义命令的接口，声明执行的方法。
