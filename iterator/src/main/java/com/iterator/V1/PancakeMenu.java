@@ -23,8 +23,4 @@ public class PancakeMenu {
     public ArrayList getMenuItems() {
         return menuItems;
     }
-
-    public void setMenuItems(ArrayList menuItems) {
-        this.menuItems = menuItems;
-    }
 }

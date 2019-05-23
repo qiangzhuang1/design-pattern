@@ -1,8 +1,6 @@
 package com.iterator.V3;
 
 import com.iterator.V1.MenuItem;
-import com.iterator.V2.PancakeMenuIterator;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 

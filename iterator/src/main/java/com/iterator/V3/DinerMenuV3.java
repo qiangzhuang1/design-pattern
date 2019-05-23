@@ -1,8 +1,8 @@
 package com.iterator.V3;
 
 import com.iterator.V1.MenuItem;
-import com.iterator.V2.DinerMenuIterator;
-import com.iterator.V2.Iterator;
+
+import java.util.Iterator;
 
 /**
  * 餐厅菜单
@@ -29,7 +29,7 @@ public class DinerMenuV3 implements Menu{
     }
 
     @Override
-    public java.util.Iterator createIterator() {
+    public Iterator createIterator() {
         return new DinerMenuIteratorV3(menuItems);
     }
 }

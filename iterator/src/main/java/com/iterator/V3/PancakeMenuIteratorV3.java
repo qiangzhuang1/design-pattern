@@ -17,19 +17,6 @@ public class PancakeMenuIteratorV3 implements Iterator {
         this.items = menuItems;
     }
 
-    public PancakeMenuIteratorV3() {
-        items = new ArrayList();
-        addItem("原味煎饼","原味煎饼的描述",false,8.8);
-        addItem("双蛋王中王煎饼","双蛋王中王煎饼的描述",false,14.8);
-        addItem("酱汁肉煎饼","酱汁肉煎饼的描述",true,16.8);
-        addItem("培根双薄脆煎饼","培根双薄脆煎饼的描述",true,20.8);
-    }
-
-    public void addItem(String name, String description, boolean vegetarian, double price){
-        MenuItem menuItem = new MenuItem(name,description,vegetarian,price);
-        items.add(menuItem);
-    }
-
     @Override
     public boolean hasNext() {
         if(position >= items.size() || items == null){

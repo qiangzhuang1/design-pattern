@@ -1,8 +1,5 @@
 package com.iterator.V3;
 
-import com.iterator.V2.DinerMenuV2;
-import com.iterator.V2.PancakeMenuV2;
-import com.iterator.V2.WaiterV2;
 
 public class MenuTestV3 {
     public static void main(String[] args) {
