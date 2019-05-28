@@ -9,3 +9,4 @@
 9. template 模板方法模式
 10. iterator 迭代器模式
 11. composite 组合模式
+12. status 状态模式

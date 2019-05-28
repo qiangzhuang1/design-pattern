@@ -20,6 +20,7 @@
         <module>template</module>
         <module>iterator</module>
         <module>composite</module>
+        <module>status</module>
     </modules>
     <dependencies>
         <dependency>
