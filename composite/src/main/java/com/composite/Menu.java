@@ -34,11 +34,9 @@ public class Menu extends MenuComponent{
         return description;
     }
 
-
     @Override
     public void print() {
-        System.out.print("  "+getName());
-        System.out.print("，"+getDescription());
+        System.out.print(getName()+"\n");
         Iterator iterator = menuComponents.iterator();
         while (iterator.hasNext()){
             MenuComponent menuComponent = (MenuComponent) iterator.next();

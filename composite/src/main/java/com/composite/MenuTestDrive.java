@@ -11,8 +11,7 @@ public class MenuTestDrive {
         allMenus.add(dinerMenu);
         allMenus.add(cafeMenu);
         allMenus.add(dessertMenu);
-        dinerMenu.add(dessertMenu);
-        dessertMenu.add(new MenuItem("苹果沙拉","苹果沙拉描述",true,1.59));
+        dessertMenu.add(new MenuItem("苹果沙拉（甜点）","苹果沙拉描述",true,1.59));
         Waitress waitress = new Waitress(allMenus);
         waitress.printMenu();
     }

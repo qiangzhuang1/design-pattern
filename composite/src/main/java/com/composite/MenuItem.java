@@ -36,7 +36,6 @@ public class MenuItem extends MenuComponent{
     @Override
     public void print() {
         System.out.print(getName());
-        System.out.print("，"+getPrice());
-        System.out.print("，"+getDescription());
+        System.out.print("，价格："+getPrice()+"\n");
     }
 }
