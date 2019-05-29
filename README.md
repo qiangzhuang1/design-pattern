@@ -10,3 +10,4 @@
 10. iterator 迭代器模式
 11. composite 组合模式
 12. status 状态模式
+13. proxy 代理模式

@@ -21,6 +21,7 @@
         <module>iterator</module>
         <module>composite</module>
         <module>status</module>
+        <module>proxy</module>
     </modules>
     <dependencies>
         <dependency>
